@@ -19069,6 +19069,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite,
 	cr.plugins_.UserMedia,
 	cr.system_object.prototype.cnds.OnLayoutStart,
+	cr.system_object.prototype.acts.Wait,
 	cr.plugins_.Function.prototype.acts.CallFunction,
 	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
 	cr.plugins_.Sprite.prototype.cnds.CompareFrame,
