@@ -19069,8 +19069,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite,
 	cr.plugins_.UserMedia,
 	cr.system_object.prototype.cnds.OnLayoutStart,
-	cr.plugins_.Arr.prototype.acts.SetSize,
-	cr.plugins_.Arr.prototype.acts.JSONLoad,
 	cr.plugins_.Function.prototype.acts.CallFunction,
 	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
 	cr.plugins_.Sprite.prototype.cnds.CompareFrame,
@@ -19085,5 +19083,10 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Arr.prototype.exps.At,
 	cr.plugins_.UserMedia.prototype.acts.SpeakText,
-	cr.plugins_.Text.prototype.exps.Text
+	cr.plugins_.Text.prototype.exps.Text,
+	cr.plugins_.UserMedia.prototype.acts.RequestSpeechRecognition,
+	cr.plugins_.Arr.prototype.acts.SetSize,
+	cr.plugins_.Arr.prototype.acts.JSONLoad,
+	cr.system_object.prototype.cnds.Every,
+	cr.system_object.prototype.acts.GoToLayout
 ];};
