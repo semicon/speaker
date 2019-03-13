@@ -20249,6 +20249,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.UserMedia,
 	cr.plugins_.Touch,
 	cr.system_object.prototype.cnds.OnLayoutStart,
+	cr.plugins_.UserMedia.prototype.acts.GetMediaSources,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.system_object.prototype.acts.Wait,
 	cr.plugins_.Function.prototype.acts.CallFunction,
